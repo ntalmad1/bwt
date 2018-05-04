@@ -1,0 +1,128 @@
+/*
+	light-blue: #376eb1 
+	med-blue: #2d5f9a 
+	dark-blue: #2b5c98 
+*/
+
+html, body
+{
+	min-height: 100%
+}
+
+
+body
+{
+	background-color: #efefef;
+	/* padding-bottom: 320px; */
+}
+
+
+.bwt-demo-maincontainer
+{
+	background-color: #ffffff;	
+	min-height: 100%;	
+	padding-bottom: 25px;	
+}
+
+.bwt-demo-view
+{
+	min-height: 100%;		
+}
+
+
+.bwt-demo-footer
+{
+	color: #d0d0d0;
+	font-size: 12px;
+	padding-top: 15px;		
+	padding-bottom: 10px;
+}
+
+
+.bwt-demo-masthead
+{
+	background-color: #000;
+	
+	 -webkit-box-shadow: inset 0 -10px 10px #2b5c98;
+          box-shadow: inset 0 -10px 10px #2b5c98;
+	
+	background-image: -webkit-linear-gradient(0deg, #2d5f9a, #2d5f9a, #2b5c98);
+    background-image:         linear-gradient(0deg, #2d5f9a, #2d5f9a, #2b5c98);
+    border-bottom: solid #666 1px;
+}
+
+
+.bwt-demo-masthead .container
+{
+	text-align: center;
+}
+
+.bwt-demo-mastlogo
+{
+	border: solid 1px #c0d0e2;
+	padding: 20px 40px 20px 40px;
+	
+	color: #f6f6f6; 
+	font-size: 96px; 
+	fontweight: bold;
+	
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	 border-radius: 15px;
+}
+
+
+.bwt-demo-mastlogo span
+{
+	font-size: 72px;
+}
+
+.bwt-demo-masthead-version
+{
+	color: #c0d0e2;
+}
+
+/** theme css **/
+
+.bwt-tile-group li.bwt-tile:hover
+{
+    background-color: #2d5f9a;
+    color: #FFFFFF;
+}
+
+.bwt-sidebar .nav>li>a:focus, .bwt-sidebar .nav>li>a:hover {
+	color: #2b5c98 ;
+	border-left: 1px solid #2b5c98;
+}
+
+.bwt-sidebar .nav>.active:focus>a, .bwt-sidebar .nav>.active:hover>a,
+	.bwt-sidebar .nav>.active>a {
+	color: #2b5c98 ;
+	border-left: 2px solid #2b5c98 ;
+}
+
+.back-to-top:hover {
+	color: #2b5c98 ;
+	text-decoration: none
+}
+
+
+.bwt-code
+{
+	/* background-color: #f7f7f9; */
+}
+
+
+.well
+{
+	margin-bottom: 0px;
+}
+
+pre
+{
+	word-wrap: normal;
+	word-break: normal;
+}
+
+
+

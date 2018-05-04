@@ -1,0 +1,19 @@
+
+	ButtonGroup groupA = new ButtonGroup();
+	groupA.add(new Button("1"));
+	groupA.add(new Button("2"));
+	groupA.add(new Button("3"));
+	groupA.add(new Button("4"));
+	
+	ButtonGroup groupB = new ButtonGroup();
+	groupB.add(new Button("5"));
+	groupB.add(new Button("6"));
+	groupB.add(new Button("7"));
+	
+	ButtonToolbar toolbar = new ButtonToolbar();
+	toolbar.add(groupA);
+	toolbar.add(groupB);
+	toolbar.add(new Button("8"));
+	
+	tab.add(toolbar, Margin.left(5));
+	

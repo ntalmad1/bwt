@@ -1,0 +1,43 @@
+@CHARSET "ISO-8859-1";
+
+.navbar-inverse {
+    /* background-image: url('../gradient.php?from=395b7f&to=2d4866'); */
+    background-image: linear-gradient(#395b7f, #395b7f 50%, #2d4866); 
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+    /* background-image: url('../gradient.php?from=395b7f&to=2d4866'); */
+    background-image: linear-gradient(#395b7f, #395b7f 50%, #2d4866);
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ececec;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, a.navbar-brand:hover {
+    /* background-image: url('../gradient.php?from=395b7f&to=2d4866'); */
+    background-image: linear-gradient(#395b7f, #395b7f 50%, #2d4866);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.25) inset;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    /* background-image: url('../gradient.php?from=395b7f&to=2d4866'); */
+    background-image: linear-gradient(#395b7f, #395b7f 50%, #2d4866);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.25) inset;
+}
+
+.navbar-inverse .navbar-brand
+{
+    color: #ececec;
+    font-size: 14px;
+}
+
+.navbar-inverse .navbar-brand-active
+{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.25) inset;
+}

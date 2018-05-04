@@ -1,0 +1,10 @@
+
+	Address address = new Address();
+	address.add(Html.strong("Twitter, Inc.")).br(); 
+	address.append("795 Folsom Ave, Suite 600").br();
+	address.append("San Francisco, CA 94107").br();
+	address.add(Html.abbr("P:", "Phone")).nbsp().append("(123) 456-7890").br();
+	address.add(Html.a("first.last@example.com").setHref("mailto:#"));
+	
+	tab.add(address);
+	

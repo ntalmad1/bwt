@@ -1,0 +1,16 @@
+
+	Button btnOne = new PrimaryButton("Block level button");
+	btnOne.setBlock(true);
+	
+	Button btnTwo = new DefaultButton("Block level button");
+	btnTwo.setBlock(true);
+	
+	Well well = new Well();
+	well.setCentered(true);
+	well.setMaxWidth(400);
+	
+	well.add(btnOne);
+	well.add(btnTwo);
+	
+	tab.add(well);
+	

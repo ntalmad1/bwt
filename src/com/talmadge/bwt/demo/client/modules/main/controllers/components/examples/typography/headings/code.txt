@@ -1,0 +1,10 @@
+
+	tab.add(new PageHeader("Page Header"));
+	
+	tab.add(Html.h1("h1. Bootstrap heading").append("&nbsp;<small>Secondary text</small>"));
+	tab.add(Html.h2("h2. Bootstrap heading").append("&nbsp;<small>Secondary text</small>"));
+	tab.add(Html.h3("h3. Bootstrap heading").append("&nbsp;<small>Secondary text</small>"));
+	tab.add(Html.h4("h4. Bootstrap heading").append("&nbsp;<small>Secondary text</small>"));
+	tab.add(Html.h5("h5. Bootstrap heading").append("&nbsp;<small>Secondary text</small>"));
+	tab.add(Html.h6("h6. Bootstrap heading").append("&nbsp;<small>Secondary text</small>"));
+	

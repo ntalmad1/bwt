@@ -1,0 +1,10 @@
+
+	tab.add(new BwtFlowPanel(Html.mark("Hello World!"))); 
+	tab.add(new BwtFlowPanel(Html.del("Hello World!")));
+	tab.add(new BwtFlowPanel(Html.s("Hello World!")));
+	tab.add(new BwtFlowPanel(Html.ins("Hello World!")));
+	tab.add(new BwtFlowPanel(Html.u("Hello World!")));
+	tab.add(new BwtFlowPanel(Html.small("Hello World!")));
+	tab.add(new BwtFlowPanel(Html.strong("Hello World!")));
+	tab.add(new BwtFlowPanel(Html.em("Hello World!")));
+	

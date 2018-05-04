@@ -1,0 +1,13 @@
+
+	/* Single button */
+	DropdownButton dropdownButton = new DefaultDropdownButton("Defualt");
+	
+	dropdownButton.add(new MenuHeader("Dropdown header"));
+	dropdownButton.add(new MenuItem("Action"));
+	dropdownButton.add(new MenuItem("Another action"));
+	dropdownButton.add(new MenuItem("Something else here"));
+	dropdownButton.add(new MenuSeparator()); 
+	dropdownButton.add(new MenuItem("Separated link"));
+	
+	tab.add(dropdownButton);
+	

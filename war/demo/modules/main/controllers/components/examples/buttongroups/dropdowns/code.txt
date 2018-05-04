@@ -1,0 +1,29 @@
+
+	// Dropdown
+	ButtonGroup groupA = new ButtonGroup();
+	
+	groupA.add(new Button("1"));
+	groupA.add(new Button("2"));
+	
+	DropdownButton dropdownButton = new DropdownButton("Dropdown");
+	dropdownButton.add(new MenuItem("Dropdown link"));
+	dropdownButton.add(new MenuItem("Dropdown link"));
+	
+	groupA.add(dropdownButton);
+	
+	tab.add(groupA, Margin.left(5));
+	
+	// Split Dropdown
+	ButtonGroup groupB = new ButtonGroup();
+	
+	groupB.add(new Button("3"));
+	groupB.add(new Button("4"));
+	
+	SplitDropdownButton splitDropdown = new SplitDropdownButton("Split dropdown");
+	splitDropdown.add(new MenuItem("Dropdown link"));
+	splitDropdown.add(new MenuItem("Dropdown link"));
+	
+	groupB.add(splitDropdown);
+	
+	tab.add(groupB, Margin.left(10));
+	

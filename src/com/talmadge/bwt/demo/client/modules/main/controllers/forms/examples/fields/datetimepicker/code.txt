@@ -1,0 +1,5 @@
+
+    DateTimePicker datePicker = new DateTimePicker();
+
+    tab.add(datePicker);
+    

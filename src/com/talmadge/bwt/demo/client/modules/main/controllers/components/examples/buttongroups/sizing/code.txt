@@ -1,0 +1,40 @@
+
+	// Large
+	ButtonGroup lgGroup = new ButtonGroup();
+	lgGroup.setButtonSize(ButtonSize.LARGE);
+	
+	lgGroup.add(new Button("Left"));
+	lgGroup.add(new Button("Middle"));
+	lgGroup.add(new Button("Right"));
+	
+	tab.add(new BwtFlowPanel(lgGroup), new Margins(0, 0, 0, 5));
+	
+	// Normal
+	ButtonGroup group = new ButtonGroup();
+	
+	group.add(new Button("Left"));
+	group.add(new Button("Middle"));
+	group.add(new Button("Right"));
+	
+	tab.add(new BwtFlowPanel(group), new Margins(10, 0, 0, 5));
+	
+	// Small
+	ButtonGroup smGroup = new ButtonGroup();
+	smGroup.setButtonSize(ButtonSize.SMALL);
+	
+	smGroup.add(new Button("Left"));
+	smGroup.add(new Button("Middle"));
+	smGroup.add(new Button("Right"));
+	
+	tab.add(new BwtFlowPanel(smGroup), new Margins(10, 0, 0, 5));
+	
+	// X-small
+	ButtonGroup xsGroup = new ButtonGroup();
+	xsGroup.setButtonSize(ButtonSize.XSMALL);
+	
+	xsGroup.add(new Button("Left"));
+	xsGroup.add(new Button("Middle"));
+	xsGroup.add(new Button("Right"));
+	
+	tab.add(new BwtFlowPanel(xsGroup), new Margins(10, 0, 0, 5));
+	

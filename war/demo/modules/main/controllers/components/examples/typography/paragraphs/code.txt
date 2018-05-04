@@ -1,0 +1,5 @@
+
+	tab.add(Html.p(Resources.INSTANCE.loremIpsum().getText()));
+	
+	tab.add(Html.p(Resources.INSTANCE.loremIpsum().getText()).setLead(true));
+	

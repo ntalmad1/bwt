@@ -1,0 +1,13 @@
+
+	BwtPanelInterface panel = new BwtFlowPanel();
+	
+	panel.add(new DefaultButton("Default"));
+	panel.add(new PrimaryButton("Primary"), new Margins(0, 0, 0, 5));
+	panel.add(new SuccessButton("Success"), new Margins(0, 0, 0, 5));
+	panel.add(new InfoButton("Info"), new Margins(0, 0, 0, 5));
+	panel.add(new WarningButton("Warning"), new Margins(0, 0, 0, 5));
+	panel.add(new DangerButton("Danger"), new Margins(0, 0, 0, 5));
+	panel.add(new LinkButton("Link"), new Margins(0, 0, 0, 5));
+	
+	tab.add(panel);
+	

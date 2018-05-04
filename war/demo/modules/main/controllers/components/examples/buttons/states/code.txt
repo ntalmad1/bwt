@@ -1,0 +1,29 @@
+
+	Button normalPrimaryBtn = new PrimaryButton("Normal button");
+	Button normalDefaultBtn = new DefaultButton("Normal button");
+	
+	Button pressedPrimaryBtn = new PrimaryButton("Pressed button");
+	pressedPrimaryBtn.setPressed(true);
+
+	Button pressedDefaultBtn = new DefaultButton("Pressed button");
+	pressedDefaultBtn.setPressed(true);
+	
+	Button disabledPrimaryBtn = new PrimaryButton("Disabled button");
+	disabledPrimaryBtn.setDisabled(true);
+	
+	Button disabledDefaultBtn = new DefaultButton("Disabled button");
+	disabledDefaultBtn.setDisabled(true);
+	
+	tab.add(normalPrimaryBtn);
+	tab.add(normalDefaultBtn, new Margins(0, 0, 0, 5));
+	
+	tab.br(10);
+	
+	tab.add(pressedPrimaryBtn);
+	tab.add(pressedDefaultBtn, new Margins(0, 0, 0, 5));
+	
+	tab.br(10);
+	
+	tab.add(disabledPrimaryBtn);
+	tab.add(disabledDefaultBtn, new Margins(0, 0, 0, 5));
+	

@@ -1,0 +1,20 @@
+
+	SplitDropdownButton dropdownButton = new DefaultSplitDropdownButton("Dropdown");
+	dropdownButton.setMode(Mode.HOVER);
+	
+	dropdownButton.add(new MenuHeader("Dropdown header"));
+	
+	MenuItem actionItem = new MenuItem("Action submenu");
+	actionItem.add(new MenuHeader("Action submenu header")); 
+	actionItem.add(new MenuItem("Another action")); 
+	
+	MenuItem somethingItem = new MenuItem("Something else here");
+	somethingItem.add(new MenuHeader("Something else here submenu"));
+	somethingItem.add(new MenuItem("Something else action"));
+	
+	actionItem.add(somethingItem);
+	
+	dropdownButton.add(actionItem);
+	
+	tab.add(dropdownButton);
+	

@@ -1,0 +1,7 @@
+
+	tab.add(Html.p("Left aligned text.").setTextAlign(TextAlign.LEFT));
+	tab.add(Html.p("Center aligned text.").setTextAlign(TextAlign.CENTER));
+	tab.add(Html.p("Right aligned text.").setTextAlign(TextAlign.RIGHT));
+	tab.add(Html.p("Justified text.").setTextAlign(TextAlign.JUSTIFY));
+	tab.add(Html.p("No wrap text.").setTextWrap(TextWrap.NO_WRAP));
+	

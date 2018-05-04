@@ -1,0 +1,48 @@
+
+	/* large buttons */
+	Button lgPrimaryBtn = new PrimaryButton("Large Button");
+	lgPrimaryBtn.setButtonSize(ButtonSize.LARGE);
+	
+	Button lgDefaultBtn = new DefaultButton("Large Button");
+	lgDefaultBtn.setButtonSize(ButtonSize.LARGE);
+	
+	/* normal buttons */
+	Button normPrimaryBtn = new PrimaryButton("Default Button");
+	normPrimaryBtn.setButtonSize(ButtonSize.NORMAL);
+
+	Button normDefaultBtn = new DefaultButton("Default Button"); 
+	normDefaultBtn.setButtonSize(ButtonSize.NORMAL);
+	
+	/* small buttons */
+	Button smPrimaryBtn = new PrimaryButton("Small Button");
+	smPrimaryBtn.setButtonSize(ButtonSize.SMALL);
+	
+	Button smDefaultBtn = new DefaultButton("Small Button");
+	smDefaultBtn.setButtonSize(ButtonSize.SMALL);
+	
+	/* xtra small buttons */
+	Button xsPrimaryBtn = new PrimaryButton("Extra Small Button");
+	xsPrimaryBtn.setButtonSize(ButtonSize.SMALL);
+	
+	Button xsDefaultBtn = new DefaultButton("Extra Small Button");
+	xsDefaultBtn.setButtonSize(ButtonSize.SMALL);
+	
+	/* add buttons to the tab */
+	tab.add(lgPrimaryBtn);
+	tab.add(lgDefaultBtn, new Margins(0, 0, 0, 5));
+
+	tab.br(10);
+	
+	tab.add(normPrimaryBtn);
+	tab.add(normDefaultBtn, new Margins(0, 0, 0, 5));
+	
+	tab.br(10);
+	
+	tab.add(smPrimaryBtn);
+	tab.add(smDefaultBtn, new Margins(0, 0, 0, 5));
+	
+	tab.br(10);
+	
+	tab.add(xsPrimaryBtn);
+	tab.add(xsDefaultBtn, new Margins(0, 0, 0, 5));
+	

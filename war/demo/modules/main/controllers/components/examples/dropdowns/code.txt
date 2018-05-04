@@ -1,0 +1,66 @@
+
+	final DropdownButton dropdownButtonOne = new DropdownButton("Dropdown");
+	//dropdownButtonOne.setMode(Mode.HOVER);
+	
+//		dropdownButtonOne.addBeforeMenuShowHandler(new BeforeMenuShowHandler()
+//		{
+//			public void onBeforeMenuShow (BeforeMenuShowEvent event)
+//			{
+//				Window.alert("Before show");
+//			}
+//		});
+//		
+//		dropdownButtonOne.addMenuShowHandler(new MenuShowHandler()
+//		{
+//			public void onMenuShow (MenuShowEvent event)
+//			{
+//				Window.alert("Show");
+//			}
+//		});
+//		
+//		dropdownButtonOne.addBeforeMenuHideHandler(new BeforeMenuHideHandler()
+//		{
+//			public void onBeforeMenuHide (BeforeMenuHideEvent event)
+//			{
+//				Window.alert("Before hide");
+//			}
+//		});
+//		
+//		dropdownButtonOne.addMenuHideHandler(new MenuHideHandler()
+//		{
+//			public void onMenuHide (MenuHideEvent event)
+//			{
+//				Window.alert("Hide");
+//			}
+//		});
+	
+	dropdownButtonOne.addHeader("Dropdown header");
+	
+	MenuItem actionMenuItem = new MenuItem("Action")
+	{
+		public void onSelect (SelectEvent<MenuItem> event)
+		{
+			Window.alert("Action selected");
+		}
+	};
+	
+	dropdownButtonOne.addItem(actionMenuItem);
+	dropdownButtonOne.addSeparator();
+	
+	
+	Menu subMenu = new Menu();
+	subMenu.add(new MenuItem("Sub action")
+	{
+		public void onSelect (SelectEvent<MenuItem> event)
+		{
+			Window.alert("Sub action selected");
+		}
+	});
+	
+	actionMenuItem.setMenu(subMenu);
+
+	tab.add(dropdownButtonOne);
+	
+	
+	
+	

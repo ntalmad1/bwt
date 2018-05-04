@@ -1,0 +1,28 @@
+
+	/* Dropup button */
+	DropdownButton dropupButton = new DropdownButton("Dropup");
+	dropupButton.setDirection(Direction.UP);
+	
+	dropupButton.add(new MenuHeader("Dropdown header"));
+	dropupButton.add(new MenuItem("Action"));
+	dropupButton.add(new MenuItem("Another action"));
+	dropupButton.add(new MenuItem("Something else here"));
+	dropupButton.add(new MenuSeparator()); 
+	dropupButton.add(new MenuItem("Separated link"));
+	
+	tab.add(dropupButton);
+	
+	/* Dropup button with menu align right */
+	DropdownButton rightDropupButton = new PrimaryDropdownButton("Right dropup");
+	rightDropupButton.setDirection(Direction.UP);
+	rightDropupButton.setMenuAlign(MenuAlign.RIGHT);
+	
+	rightDropupButton.add(new MenuHeader("Dropdown header"));
+	rightDropupButton.add(new MenuItem("Action"));
+	rightDropupButton.add(new MenuItem("Another action"));
+	rightDropupButton.add(new MenuItem("Something else here"));
+	rightDropupButton.add(new MenuSeparator()); 
+	rightDropupButton.add(new MenuItem("Separated link"));
+	
+	tab.add(rightDropupButton, Margin.left(5));
+	

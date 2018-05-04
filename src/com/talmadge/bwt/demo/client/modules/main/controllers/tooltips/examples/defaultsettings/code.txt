@@ -1,0 +1,11 @@
+
+	Button button = new PrimaryButton("Hover");
+	button.setWidth(75);
+	
+	button.setTooltip("Bacon ipsum dolor amet ham hock.");
+	
+	button.setCentered(true);
+	
+	tab.add(button);
+	
+	

@@ -1,0 +1,11 @@
+
+    TextField fieldOne = new TextField();
+    fieldOne.setLabel("Example 1");
+    tab.add(fieldOne);
+    
+    TextField fieldTwo = new TextField();
+    fieldTwo.setLabel("Example 2");
+    fieldTwo.setAddon(Glyphicon.USD, AddonPos.LEFT);
+    fieldTwo.setAddon(".00", AddonPos.RIGHT);
+    tab.add(fieldTwo);
+    

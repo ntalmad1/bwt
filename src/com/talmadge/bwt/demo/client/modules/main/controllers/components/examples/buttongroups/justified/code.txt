@@ -1,0 +1,11 @@
+
+	// Justified button group
+	ButtonGroup basicGroup = new ButtonGroup();
+	basicGroup.setBlock(true);
+	
+	basicGroup.add(new Button("Left"));
+	basicGroup.add(new Button("Middle"));
+	basicGroup.add(new Button("Right"));
+	
+	tab.add(basicGroup, Margin.left(5));
+	

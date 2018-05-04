@@ -1,0 +1,11 @@
+
+	Html abbrExp1 = new Html("An abbreviation of the word attribute is ");
+	abbrExp1.append(Html.abbr("attr", "attribute"));
+	
+	tab.add(abbrExp1);
+	
+	Html abbrExp2 = new Html("An abbreviation of the word attribute is ");
+	abbrExp2.append(Html.abbr("attr", "attribute").setInitialism(true));
+	
+	tab.add(abbrExp2, Margin.top(20));
+	

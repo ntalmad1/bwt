@@ -1,0 +1,19 @@
+
+    TextField field1 = new TextField();
+    field1.setSize(FormElementSize.LARGE);
+    field1.setAddon("@", AddonPos.LEFT);
+    field1.setPlaceholder("Username");
+    tab.add(field1);
+    
+    TextField field2 = new TextField();
+    field2.setSize(FormElementSize.NORMAL);
+    field2.setAddon("@", AddonPos.LEFT);
+    field2.setPlaceholder("Username");
+    tab.add(field2);
+    
+    TextField field3 = new TextField();
+    field3.setSize(FormElementSize.SMALL);
+    field3.setAddon("@", AddonPos.LEFT);
+    field3.setPlaceholder("Username");
+    tab.add(field3);
+    

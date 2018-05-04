@@ -1,0 +1,7 @@
+
+    DatePartField field = new DatePartField();
+    field.setRequired(true);
+
+    tab.add(field);
+
+    

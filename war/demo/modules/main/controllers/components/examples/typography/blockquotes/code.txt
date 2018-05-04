@@ -1,0 +1,15 @@
+
+	Blockquote blockquoteExp1 = new Blockquote();
+	blockquoteExp1.add(Html.p(Resources.INSTANCE.loremIpsum().getText()));
+	blockquoteExp1.add(Html.footer("Someone famous in").nbsp().add(Html.cite("Source Title")));
+	
+	tab.add(blockquoteExp1);
+	
+	Blockquote blockquoteExp2 = new Blockquote();
+	blockquoteExp2.add(Html.p(Resources.INSTANCE.loremIpsum().getText()));
+	blockquoteExp2.add(Html.footer("Someone famous in").nbsp().add(Html.cite("Source Title")));
+	
+	blockquoteExp2.setReverse(true);
+	
+	tab.add(blockquoteExp2);
+	

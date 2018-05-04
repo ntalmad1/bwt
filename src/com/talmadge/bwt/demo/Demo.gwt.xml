@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.6.0//EN"
+  "http://google-web-toolkit.googlecode.com/svn/tags/2.6.0/distro-source/core/src/gwt-module.dtd">
+
+<module rename-to='demo'>
+ 
+  <!-- Inherit the core Web Toolkit stuff.                        -->
+  <inherits name='com.google.gwt.user.User'/>
+  <inherits name='com.google.gwt.json.JSON' />
+  
+  <!-- Other module inherits                                      -->
+  <inherits name='com.talmadge.bwt.core.Core' />
+  <inherits name='com.talmadge.bwt.template.Template' />
+  <inherits name='com.talmadge.bwt.java2html.Java2Html' />
+  
+  <entry-point class='com.talmadge.bwt.demo.client.Demo'/>
+  
+  <!-- Specify the paths for translatable code                    -->
+  <source path='client'/>
+  
+  <public path='client'/>
+  
+  
+  
+  <!-- allow Super Dev Mode -->
+  <add-linker name="xsiframe"/>
+</module>

@@ -1,0 +1,5 @@
+
+	tab.add(Html.p("Lowercased text.").setTextTransform(TextTransform.LOWERCASE));
+	tab.add(Html.p("Uppercased text.").setTextTransform(TextTransform.UPPERCASE));
+	tab.add(Html.p("Capitalized text.").setTextTransform(TextTransform.CAPITALIZE));
+	

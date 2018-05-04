@@ -1,0 +1,24 @@
+
+	/* Inline */
+	tab.add(Html.h3("Responsive images")); 
+	
+	tab.add(new BwtImage(Demo.getAppUrl() + "images/imageExampleWide.jpg").setResponsive(true));
+	
+	
+	/* Image shapes */
+	tab.add(Html.h3("Image shapes")); 
+	
+	tab.add(Html.h4("Rounded"));
+	tab.add(new BwtImage(Demo.getAppUrl() + "images/imageExample.jpg").setRounded(true));
+	tab.add(Html.h4("Circle"));
+	tab.add(new BwtImage(Demo.getAppUrl() + "images/imageExample.jpg").setCircle(true));
+	
+	
+	/* Thumbnails */
+	tab.add(Html.h3("Thumbnails")); 
+	
+	tab.add(new BwtImage(Demo.getAppUrl() + "images/imageExampleWide.jpg").setResponsive(true).setThumbnail(true));
+	tab.br();
+	tab.add(new BwtImage(Demo.getAppUrl() + "images/imageExample.jpg").setRounded(true).setThumbnail(true), new Margins(10, 10, 0, 0));
+	tab.add(new BwtImage(Demo.getAppUrl() + "images/imageExample.jpg").setCircle(true).setThumbnail(true), new Margins(10, 0, 0, 0));
+	

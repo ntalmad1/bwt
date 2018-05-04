@@ -1,0 +1,33 @@
+
+	ButtonGroup group = new VerticalButtonGroup();
+	
+	group.add(new Button("Button"));
+	group.add(new Button("Button"));
+	
+	DropdownButton dropdownOne = new DropdownButton("Dropdown");
+	dropdownOne.add(new MenuItem("Dropdown link"));
+	dropdownOne.add(new MenuItem("Dropdown link"));
+	
+	group.add(dropdownOne);
+	
+	group.add(new Button("Button"));
+	group.add(new Button("Button"));
+	
+	DropdownButton dropdownTwo = new DropdownButton("Dropdown");
+	dropdownTwo.add(new MenuItem("Dropdown link"));
+	dropdownTwo.add(new MenuItem("Dropdown link"));
+	
+	DropdownButton dropdownThree = new DropdownButton("Dropdown");
+	dropdownThree.add(new MenuItem("Dropdown link"));
+	dropdownThree.add(new MenuItem("Dropdown link"));
+	
+	DropdownButton dropdownFour = new DropdownButton("Dropdown");
+	dropdownFour.add(new MenuItem("Dropdown link"));
+	dropdownFour.add(new MenuItem("Dropdown link"));
+	
+	group.add(dropdownTwo);
+	group.add(dropdownThree);
+	group.add(dropdownFour);
+	
+	tab.add(group, Margin.left(5));
+	
